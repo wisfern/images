@@ -1,0 +1,9 @@
+{
+    "schedule": "daily", // daily|weekly|monthly
+    "ignoredFiles": [
+        "*.jpg1",                   // ignore by extension
+        "image1.png",              // ignore by filename
+        "dmon/big/*", // ignore by folderpath
+    ],
+    "aggressiveCompression": "false"  // true | false
+}
